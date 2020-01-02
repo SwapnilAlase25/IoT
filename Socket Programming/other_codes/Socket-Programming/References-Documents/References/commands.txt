@@ -1,0 +1,40 @@
+#for debugging - port already in use
+
+sudo netstat -nalutp | grep <port number>
+
+#identify the PID
+
+#Kill the process
+
+sudo kill -9 <pid>
+
+#----------------------#
+
+#running processes
+
+ps -eafl 
+
+#for specific command/process/program
+#say telnet
+
+ps -eafl | grep telnet
+
+#observe the results
+
+#to trace the path of a request
+
+#use traceroute or tracepath
+#say google.com
+
+traceroute google.com
+
+#to check remote machine is available over n/w or not
+
+ping <remotemachineip>
+
+#telnet -  bi - directional interactive text oriented
+#communication
+
+telnet <ipadd-remotemachine-server> <port-number>
+
+ 
