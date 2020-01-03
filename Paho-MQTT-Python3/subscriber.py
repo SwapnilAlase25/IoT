@@ -33,6 +33,6 @@ client.on_message = on_message
 #Add new callback
 #client.message_callback_add(topic1, newmsg)
 #while (True):
-client.on_connect = on_connect
-client.on_message = on_message
+#client.on_connect = on_connect
+#client.on_message = on_message
 client.loop_forever()
